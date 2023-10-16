@@ -1,0 +1,90 @@
+/* Daksh Prajapati
+ 8912306  */
+
+body {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font: 16px Arial, sans-serif;
+  padding: 30px;
+}
+
+
+header {
+  border: 1px solid #f60404;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+footer {
+  font-size: 18px;
+  color: #666;
+}
+
+
+
+h1, h2 {
+  color: #077ef5;
+  font-variant: small-caps;
+}
+
+
+
+
+main {
+  width: 66.66%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+aside {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.mainimg {
+  border: 2px solid #999;
+}
+
+
+figcaption {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+
+q {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 18px;
+}
+
+
+ul li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+
+ul > li > a {
+  text-decoration: none;
+  color: #b104b1;
+}
+
+
+aside a:hover {
+  color: #ff6600;
+}
